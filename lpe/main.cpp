@@ -1,12 +1,12 @@
 #include "stdafx.h"
 #include "ReparsePoint.h"
-#include <iostream>
 #include "FileOpLock.h"
-#include <windows.h>
-#include <iostream>
 #include <shlobj.h>
-#pragma comment(lib, "shell32.lib")
-using namespace std;
+
+
+
+
+
 
 LPWSTR combine(LPWSTR origin, LPWSTR add)
 {
